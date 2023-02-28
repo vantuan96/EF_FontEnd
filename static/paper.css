@@ -1,0 +1,146 @@
+@page { margin: 0 }
+body { margin: 0 }
+.sheet {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  page-break-after: always;
+}
+
+/** Paper sizes **/
+body.A3               .sheet { width: 297mm; height: 419mm }
+body.A3.landscape     .sheet { width: 420mm; height: 296mm }
+body.A4               .sheet { width: 210mm; }
+body.A4.landscape     .sheet { width: 297mm; height: 209mm }
+body.A5               .sheet { width: 148mm; height: 209mm }
+body.A5.landscape     .sheet { width: 210mm; height: 147mm }
+body.letter           .sheet { width: 216mm; height: 279mm }
+body.letter.landscape .sheet { width: 280mm; height: 215mm }
+body.legal            .sheet { width: 216mm; height: 356mm }
+body.legal.landscape  .sheet { width: 357mm; height: 215mm }
+
+/** Padding area **/
+.sheet.padding-10mm { padding: 10mm }
+.sheet.padding-15mm { padding: 15mm }
+.sheet.padding-20mm { padding: 20mm }
+.sheet.padding-25mm { padding: 25mm }
+
+/** For screen preview **/
+@media screen {
+  body { background: #e0e0e0 }
+  .sheet {
+    background: white;
+    box-shadow: 0 .5mm 2mm rgba(0,0,0,.3);
+    margin: 5mm auto;
+  }
+}
+
+/** Fix for Chrome issue #273306 **/
+@media print {
+           body.A3.landscape { width: 420mm }
+  body.A3, body.A4.landscape { width: 297mm }
+  body.A4, body.A5.landscape { width: 210mm }
+  body.A5                    { width: 148mm }
+  body.letter, body.legal    { width: 216mm }
+  body.letter.landscape      { width: 280mm }
+  body.legal.landscape       { width: 357mm }
+}
+.font14 p, .font14 b, .font14 th, .font14 td {
+  font-size: 14px
+}
+.font12 p, .font12 b, .font12 th, .font12 td {
+  font-size: 12px;
+  line-height: 1;
+}
+.font18 {
+  font-size: 18px;
+  line-height: 1;
+}
+.font11 {
+  font-size: 11px;
+  line-height: 1;
+}
+.font13 {
+  font-size: 13px;
+  line-height: 1;
+}
+.only-web-page {
+  display: none !important
+}
+.text-center {
+  text-align: center
+}
+.text-bold {
+  font-weight: bold
+}
+[hidden-text] {
+  color: transparent
+}
+.hidden-text {
+  color: transparent
+}
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.col-20 {
+  width: 20%
+}
+.col-1 {
+  width: 1%
+}
+.col-30 {
+  width: 30%
+}
+.col-33 {
+  width: 33%
+}
+.col-60 {
+  width: 60%
+}
+.col-100 {
+  width: 100%
+}
+.td-h-30 td{
+  min-height: 30px;
+}
+p {
+  white-space: pre-line;
+}
+.textUnderLine {
+  border-bottom: 1px solid;
+}
+.font10pt {
+  font-size: 10pt
+}
+.font11pt {
+  font-size: 11pt
+}
+.font12pt {
+  font-size: 12pt
+}
+.font13pt {
+  font-size: 13pt
+}
+.font14pt {
+  font-size: 14pt
+}
+.font15pt {
+  font-size: 15pt
+}
+.font16pt {
+  font-size: 16pt
+}
+.font17pt {
+  font-size: 17pt
+}
+.font18pt {
+  font-size: 18pt
+}
+.font19pt {
+  font-size: 19pt
+}
+.font20pt {
+  font-size: 20pt
+}

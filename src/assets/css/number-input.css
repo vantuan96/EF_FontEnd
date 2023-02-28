@@ -1,0 +1,127 @@
+.number-input {
+	 display: block;
+	 max-width: 100%;
+	 overflow: hidden;
+	 position: relative;
+}
+ .number-input__button {
+	 background-color: #fff;
+	 border: 0;
+	 border-radius: 0.25rem;
+	 bottom: 1px;
+	 position: absolute;
+	 top: 1px;
+	 width: 2.5rem;
+	 z-index: 1;
+}
+ .number-input__button:focus {
+	 outline: none;
+}
+ .number-input__button:hover::before, .number-input__button:hover::after {
+	 background-color: #0074d9;
+}
+ .number-input__button:disabled {
+	 opacity: 0.65;
+}
+ .number-input__button:disabled::before, .number-input__button:disabled::after {
+	 background-color: #ddd;
+}
+ .number-input__button::before, .number-input__button::after {
+	 background-color: #111;
+	 content: "";
+	 left: 50%;
+	 position: absolute;
+	 top: 50%;
+	 transform: translate(-50%, -50%);
+	 transition: background-color 0.15s;
+}
+ .number-input__button::before {
+	 height: 1px;
+	 width: 50%;
+}
+ .number-input__button::after {
+	 height: 50%;
+	 width: 1px;
+}
+ .number-input__button--minus {
+	 border-bottom-right-radius: 0;
+	 border-right: 1px solid #ddd;
+	 border-top-right-radius: 0;
+	 left: 1px;
+}
+ .number-input__button--minus::after {
+	 visibility: hidden;
+}
+ .number-input__button--plus {
+	 border-bottom-left-radius: 0;
+	 border-left: 1px solid #ddd;
+	 border-top-left-radius: 0;
+	 right: 1px;
+}
+ .number-input__input {
+	 -moz-appearance: textfield;
+	 background-color: #fff;
+	 border: 1px solid #ddd;
+	 border-radius: 0.25rem;
+	 display: block;
+	 line-height: 1.5;
+	 max-width: 100%;
+	 min-height: 1.5rem;
+	 min-width: 3rem;
+	 padding: 0.4375rem 0.875rem;
+	 transition: border-color 0.15s;
+	 width: 100%;
+}
+ .number-input__input::-webkit-outer-spin-button, .number-input__input::-webkit-inner-spin-button {
+	 -webkit-appearance: none;
+}
+ .number-input__input:focus {
+	 border-color: #0074d9;
+	 outline: none;
+}
+ .number-input__input:disabled, .number-input__input[readonly] {
+	 background-color: #f8f8f8;
+}
+ .number-input--inline {
+	 display: inline-block;
+}
+ .number-input--inline > input.form-control {
+	 display: inline-block;
+	 width: 12.5rem;
+}
+ .number-input--center > input.form-control {
+	 text-align: center;
+}
+ .number-input--controls > input.form-control {
+	 padding-left: 3.375rem;
+	 padding-right: 3.375rem;
+}
+ .number-input--small > input.form-control {
+	 border-radius: 0.1875rem;
+	 padding: 0.25rem 0.5rem;
+}
+ .number-input--small.number-input--inline > input.form-control {
+	 width: 10rem;
+}
+ .number-input--small.number-input--controls > button {
+	 width: 2rem;
+}
+ .number-input--small.number-input--controls > input.form-control {
+	 padding-left: 2.5rem;
+	 padding-right: 2.5rem;
+}
+ .number-input--large > input.form-control {
+	 border-radius: 0.3125rem;
+	 padding: 0.5rem 1rem;
+}
+ .number-input--large.number-input--inline > input.form-control {
+	 width: 15rem;
+}
+ .number-input--large.number-input--controls > button {
+	 width: 3rem;
+}
+ .number-input--large.number-input--controls > input.form-control {
+	 padding-left: 4rem;
+	 padding-right: 4rem;
+}
+ 

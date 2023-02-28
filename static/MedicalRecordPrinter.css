@@ -1,0 +1,12 @@
+@page {
+  margin: 15mm 10mm 0 10mm;
+}
+.only-web-page {
+  display: none !important
+}
+h4 {
+  margin: 1pt 0;
+}
+table td {
+  padding: 3pt 3pt;
+}

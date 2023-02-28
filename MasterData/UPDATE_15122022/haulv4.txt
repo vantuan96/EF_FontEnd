@@ -1,0 +1,18 @@
+--- Deploy 15/12/2022
+--- Telehealth Examination Note
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Phiếu khám Telehealth',N'Telehealth Examination Note',N'TelehealthExaminationNote',N'BAHC',N'NHOMBIEUMAU',N'2',N'3',N'Label',N'',N'0',N'',N'', '1');
+
+--- REFERRAL LETTER (Giấy chuyển viện)
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'BÁC SỸ ĐIỀU TRỊ',N'PHYSICIAN-IN-CHARGE',N'REFERRALLETTER_PIC',N'REFERRALLETTERCONFIRM',N'REFERRALLETTERCONFIRM',N'1',N'1',N'ConfirmForm',N'',N'',N'',N'', '1');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'GIÁM ĐỐC BỆNH VIỆN',N'DIRECTOR',N'REFERRALLETTER_DIR',N'REFERRALLETTERCONFIRM',N'REFERRALLETTERCONFIRM',N'1',N'2',N'ConfirmForm',N'',N'',N'',N'', '1');
+
+--- TRANSFERLETTERCONFIRM (Giấy chuyển tuyến)
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Y, BÁC SĨ KHÁM, ĐIỀU TRỊ',N'PHYSICIAN-IN-CHARGE',N'TRANSFERLETTER_PIC',N'TRANSFERLETTERCONFIRM',N'TRANSFERLETTERCONFIRM',N'1',N'1',N'ConfirmForm',N'',N'',N'',N'', '1');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'NGƯỜI CÓ THẨM QUYỀN CHUYỂN TUYẾN',N'TRANSFER AUTHORITY',N'TRANSFERLETTER_TAU',N'TRANSFERLETTERCONFIRM',N'TRANSFERLETTERCONFIRM',N'1',N'2',N'ConfirmForm',N'',N'',N'',N'', '1');
+
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Khai thác thông tin thuốc đã dùng tại nhà (nếu có)',N'Khai thác thông tin thuốc đã dùng tại nhà (nếu có)',N'OPDOENVH600',N'OPDOEN',N'OPDOEN',N'1',N'600',N'Label',N'',N'',N'',N'', '1');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'NB không có thuốc đang dùng',N'NB không có thuốc đang dùng',N'OPDOENVH601',N'OPDOENVH600',N'OPDOEN',N'2',N'601',N'Radio',N'',N'',N'',N'', '1');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'NB có thuốc đang dùng',N'NB có thuốc đang dùng',N'OPDOENVH602',N'OPDOENVH600',N'OPDOEN',N'2',N'602',N'Radio',N'',N'',N'',N'', '1');
+
+UPDATE FormOfPatients SET TypeName = 'DischargeMedicalReport' WHERE ViName = N'Báo cáo y tế ra viện' AND ViStatusPatient = N'Kết thúc điều trị'
+UPDATE FormOfPatients SET TypeName = 'Discharged' WHERE ViName = N'Giấy ra viện' AND ViStatusPatient = N'Kết thúc điều trị'

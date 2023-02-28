@@ -1,0 +1,6 @@
+điều kiện hủy
+- Chỉ định là Placed
+- RadiologyScheduledStatus: Completed, Cancelled
+- PlacerOrderStatus không thuộc: Completed, Cancelled
+- PaymentStatus: Voided, Unknown, Incomplete
+- SpecimenStatus: Created, Deleted, Discarded, Rejected, MarkedForRecollection

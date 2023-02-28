@@ -1,0 +1,238 @@
+.v-selectmenu.sm-advanced {
+  min-width: 160px;
+  padding: 5px;
+  min-width: 350px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25)
+}
+.sm-tabs {
+  padding: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #337AB7;
+}
+.sm-tabs div {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  line-height: 1;
+  display: flex;
+}
+.sm-tabs div span {
+  display: inline-block;
+  position: relative;
+  min-width: auto !important;
+  white-space: nowrap;
+  margin-right: 5px
+}
+.sm-tabs div span.active a {
+  color: #fff;
+}
+
+.sm-tabs div span a {
+  font-size: 14px !important;
+  line-height: 1.42857143;
+  line-height: 20px !important;
+  display: block;
+  padding: 3px 15px;
+  color: #ccc;
+  text-decoration: none;
+  cursor: pointer;
+  background: transparent;
+  font-family: Helvetica Neue Light,HelveticaNeue-Light,Helvetica Neue,Calibri,Helvetica,Arial;
+}
+.sm-tabs div span.active, .sm-tabs div span:hover {
+  background-color: #337AB7;
+  border-radius: 3px 3px 0 0;
+}
+.sm-tabs div span.active:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: .2rem;
+  width: 100%;
+  background-color: #337AB7;
+}
+.sm-tabs div span:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: .2rem;
+  width: 100%;
+  background-color: #337AB7;
+}
+.ed-menu {
+  padding: 5px 10px
+}
+.sm-result-area.sm-scroll-limit {
+  max-height: calc(100vh - 60px - 50px - 60px)
+}
+
+.sm-result-area {
+  margin: 0;
+  padding-top: 5px;
+  position: relative;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+ul.sm-results {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.sm-results>li {
+  font-size: 14px;
+  line-height: 1.42857143;
+  margin: 0;
+  overflow: hidden;
+  padding: 5px 0 5px 10px;
+  position: relative;
+  text-align: left;
+  white-space: normal;
+  min-width: 180px;
+  color: #666;
+  cursor: pointer;
+  border-bottom: none !important;
+  background-color: #f5f5f5;
+  margin: 2px 0;
+  border-radius: 3px;
+}
+ul.sm-results>li:last-child {
+  margin-bottom: 0
+}
+ul.sm-results>li:hover, ul.sm-results>li.active {
+  background: #337AB7 !important;
+}
+ul.sm-results>li:hover a, ul.sm-results>li.active a{
+  background: #337AB7 !important;
+  color: #fff !important;
+}
+ul.sm-results>li a {
+  color: #000;
+  display: block;
+  line-height: 15px !important;
+  font-size: 14px;
+  padding: 3px 7px !important;
+}
+.v-context-menu2 .vue-treeselect__menu-container,
+.v-context-menu2 .vue-treeselect__menu {
+  position: unset;
+  min-width: 350px;
+}
+.vue-treeselect__indent-level-1 .vue-treeselect__option {
+  display: table !important
+}
+.v-context-menu2 .vue-treeselect__menu-container{
+  overflow: auto;
+}
+.vue-treeselect__input-container {
+  padding: 5px 10px !important;
+  width: calc(100% - 10px);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 0px 5px;
+  font-size: 14px;
+}
+.vue-treeselect__option-arrow-container {
+  cursor: pointer;
+  vertical-align: top;
+  padding-top: 5px;
+}
+.vue-treeselect__control {
+  height: auto !important;
+  /* min-height: 36px */
+}
+.vue-treeselect__list-item.vue-treeselect__indent-level-1 .vue-treeselect__label-container {
+  display: block
+}
+.vue-treeselect__indent-level-1  .vue-treeselect__option {
+  display: block;
+  margin-left: 20px
+}
+.vue-treeselect__indent-level-2  .vue-treeselect__option {
+  display: block;
+  margin-left: 40px !important;
+}
+.v-context-menu2 {
+  padding: 5px 0;
+}
+.vue-treeselect {
+  position: relative;
+  text-align: left;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.stable {
+  display: flex;
+  flex-direction: column;
+}
+div.tstable {
+  border-collapse: collapse;
+  display: table;
+  width: 100%;
+}
+
+div.sCaption {
+  display: table-caption;
+}
+
+div.tHead {
+  display: table-header-group;
+  font-weight: bold;
+}
+
+div.tCell {
+  border: 1px solid #ccc;
+  display: table-cell;
+}
+
+div.tRow {
+  display: table-row;
+}
+
+div.tFoot {
+  padding: 10px;
+  text-align: right;
+  border-top: 1px solid #ccc;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 99999;
+}
+.column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 20px;
+}
+.fill-height-or-more {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+.fill-height-or-more > .sxtable{
+  overflow: auto;
+  padding: 0 0 70px 0;
+}
+.vue-treeselect__label {
+  white-space: normal;
+}
+.vue-treeselect__checkbox-container {
+  vertical-align: top;
+  padding-top: 5px;
+}
+.vue-treeselect__multi-value-label {
+  font-size: 14px
+}
+.vue-treeselect__menu {
+  border: none !important
+}
+#top-header-menu a {
+  white-space: nowrap;
+}

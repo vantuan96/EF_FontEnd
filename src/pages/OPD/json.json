@@ -1,0 +1,2471 @@
+[
+  {
+     "ViName":"Mạch",
+     "EnName":"Pulse",
+     "Code":"OPDOENPUL",
+     "Group":"OPDOEN",
+     "Order":1,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Mạch",
+           "EnName":"Pulse",
+           "Code":"OPDOENPULANS",
+           "Group":"OPDOENPUL",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"lần/phút",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Nhiệt độ",
+     "EnName":"T",
+     "Code":"OPDOENTEM",
+     "Group":"OPDOEN",
+     "Order":2,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Nhiệt độ",
+           "EnName":"T",
+           "Code":"OPDOENTEMANS",
+           "Group":"OPDOENTEM",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"độ C",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Huyết áp",
+     "EnName":"BP",
+     "Code":"OPDOENBP0",
+     "Group":"OPDOEN",
+     "Order":3,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Huyết áp",
+           "EnName":"BP",
+           "Code":"OPDOENBP0ANS",
+           "Group":"OPDOENBP0",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"mmHg",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Nhịp thở",
+     "EnName":"RR",
+     "Code":"OPDOENRR0",
+     "Group":"OPDOEN",
+     "Order":5,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Nhịp thở",
+           "EnName":"RR",
+           "Code":"OPDOENRR0ANS",
+           "Group":"OPDOENRR0",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"lần/phút",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Chiều cao (cm)",
+     "EnName":"Height (cm)",
+     "Code":"OPDOENHEI",
+     "Group":"OPDOEN",
+     "Order":7,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Chiều cao (cm)",
+           "EnName":"Height (cm)",
+           "Code":"OPDOENHEIANS",
+           "Group":"OPDOENHEI",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Cân nặng (kg)",
+     "EnName":"Weight (kg)",
+     "Code":"OPDOENWEI",
+     "Group":"OPDOEN",
+     "Order":7,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Cân nặng (kg)",
+           "EnName":"Weight (kg)",
+           "Code":"OPDOENWEIANS",
+           "Group":"OPDOENWEI",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Lý do đến khám ( Hiển thị trên báo cáo y tế)",
+     "EnName":"Chief complain",
+     "Code":"OPDOENCC0",
+     "Group":"OPDOEN",
+     "Order":8,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Lý do đến khám",
+           "EnName":"Chief complain",
+           "Code":"OPDOENCC0ANS",
+           "Group":"OPDOENCC0",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Tiền sử bệnh",
+     "EnName":"Past medical history",
+     "Code":"OPDOENPMH",
+     "Group":"OPDOEN",
+     "Order":9,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Tiền sử bệnh",
+           "EnName":"Past medical history",
+           "Code":"OPDOENPMHANS",
+           "Group":"OPDOENPMH",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Tiền sử dị ứng",
+     "EnName":"History of allergy",
+     "Code":"OPDOENHOA",
+     "Group":"OPDOEN",
+     "Order":10,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Tiền sử dị ứng",
+           "EnName":"History of allergy",
+           "Code":"OPDOENHOAANS",
+           "Group":"OPDOENHOA",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Bệnh sử ( Hiển thị trên báo cáo y tế)",
+     "EnName":"History of present illness",
+     "Code":"OPDOENHPI",
+     "Group":"OPDOEN",
+     "Order":11,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Bệnh sử",
+           "EnName":"History of present illness",
+           "Code":"OPDOENHPIANS",
+           "Group":"OPDOENHPI",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Khám lâm sàng (Hiển thị trên báo cáo y tế)",
+     "EnName":"Clinical examination and findings",
+     "Code":"OPDOENCEF",
+     "Group":"OPDOEN",
+     "Order":12,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám lâm sàng",
+           "EnName":"Clinical examination and findings",
+           "Code":"OPDOENCEFANS",
+           "Group":"OPDOENCEF",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Chẩn đoán sơ bộ ",
+     "EnName":"Initial diagnosis",
+     "Code":"OPDOENID0",
+     "Group":"OPDOEN",
+     "Order":13,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Chẩn đoán sơ bộ ",
+           "EnName":"Initial diagnosis",
+           "Code":"OPDOENID0ANS",
+           "Group":"OPDOENID0",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Các xét nghiệm, thăm dò chính (Hiển thị trên báo cáo y tế)",
+     "EnName":"Principal test",
+     "Code":"OPDOENPT0",
+     "Group":"OPDOEN",
+     "Order":14,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Các xét nghiệm, thăm dò chính",
+           "EnName":"Principal test",
+           "Code":"OPDOENPT0ROO",
+           "Group":"OPDOENPT0",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":true,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        },
+        {
+           "ViName":"Các xét nghiệm, thăm dò chính",
+           "EnName":"Principal test",
+           "Code":"OPDOENPT0ANS",
+           "Group":"OPDOENPT0",
+           "Order":2,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Chẩn đoán xác định (Hiển thị trên báo cáo y tế)",
+     "EnName":"Definitive diagnosis",
+     "Code":"OPDOENDD0",
+     "Group":"OPDOEN",
+     "Order":15,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Chẩn đoán xác định",
+           "EnName":"Definitive diagnosis",
+           "Code":"OPDOENDD0ANS",
+           "Group":"OPDOENDD0",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Chẩn đoán theo ICD10 (Hiển thị trên báo cáo y tế)",
+     "EnName":"ICD diagnosis",
+     "Code":"OPDOENICD",
+     "Group":"OPDOEN",
+     "Order":16,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Chẩn đoán theo ICD10",
+           "EnName":"ICD diagnosis",
+           "Code":"OPDOENICDANS",
+           "Group":"OPDOENICD",
+           "Order":1,
+           "DataType":"ICD10",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Hướng điều trị (Hiển thị trên báo cáo y tế)",
+     "EnName":"Treatment plans",
+     "Code":"OPDOENTP0",
+     "Group":"OPDOEN",
+     "Order":17,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Hướng điều trị",
+           "EnName":"Treatment plans",
+           "Code":"OPDOENTP0ANS",
+           "Group":"OPDOENTP0",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Lời dặn & theo dõi (Hiển thị trên báo cáo y tế)",
+     "EnName":"Recommendation & Follow-up",
+     "Code":"OPDOENRFU",
+     "Group":"OPDOEN",
+     "Order":18,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Lời dặn & theo dõi",
+           "EnName":"Recommendation & Follow-up",
+           "Code":"OPDOENRFUANS",
+           "Group":"OPDOENRFU",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Hẹn ngày tái khám(Hiển thị trên báo cáo y tế)",
+     "EnName":"Date-of re-examination",
+     "Code":"OPDOENDOR",
+     "Group":"OPDOEN",
+     "Order":19,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Hẹn ngày tái khám",
+           "EnName":"Date-of re-examination",
+           "Code":"OPDOENDORANS",
+           "Group":"OPDOENDOR",
+           "Order":1,
+           "DataType":"DateTime",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Lý do chuyển nội trú",
+     "EnName":"Reason for transfer",
+     "Code":"OPDOENRFT",
+     "Group":"OPDOEN",
+     "Order":20,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Lý do chuyển nội trú",
+           "EnName":"Reason for transfer",
+           "Code":"OPDOENRFTANS",
+           "Group":"OPDOENRFT",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Bệnh viện chuyển tuyến (Kính gửi:)",
+     "EnName":"Receiving hospital",
+     "Code":"OPDOENRH0",
+     "Group":"OPDOEN",
+     "Order":21,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Bệnh viện chuyển tuyến (Kính gửi:)",
+           "EnName":"Receiving hospital",
+           "Code":"OPDOENRH0ANS",
+           "Group":"OPDOENRH0",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Các phương pháp , thủ thuật, kỹ thuật và thuốc đã dùng",
+     "EnName":"Methods & techniques used",
+     "Code":"OPDOENMTU",
+     "Group":"OPDOEN",
+     "Order":22,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Các phương pháp , thủ thuật, kỹ thuật và thuốc đã dùng",
+           "EnName":"Methods & techniques used",
+           "Code":"OPDOENMTUANS",
+           "Group":"OPDOENMTU",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Tình trạng người bệnh lúc chuyển tuyến",
+     "EnName":"Patient status",
+     "Code":"OPDOENPS0",
+     "Group":"OPDOEN",
+     "Order":23,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Tình trạng người bệnh lúc chuyển tuyến",
+           "EnName":"Patient status",
+           "Code":"OPDOENPS0ANS",
+           "Group":"OPDOENPS0",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Lý do chuyển tuyến",
+     "EnName":"Reason for transfer",
+     "Code":"OPDOENRFT1",
+     "Group":"OPDOEN",
+     "Order":24,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đủ điều kiện chuyển tuyến",
+           "EnName":"Reason for transfer",
+           "Code":"OPDOENRFT1SHT",
+           "Group":"OPDOENRFT1",
+           "Order":1,
+           "DataType":"Radio",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        },
+        {
+           "ViName":"Theo yêu cầu của người bệnh hoặc người đại diện hợp pháp của người bệnh",
+           "EnName":"Reason for transfer",
+           "Code":"OPDOENRFT1LOG",
+           "Group":"OPDOENRFT1",
+           "Order":2,
+           "DataType":"Radio",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Phương tiện vận chuyển",
+     "EnName":"Transportation method",
+     "Code":"OPDOENTM0",
+     "Group":"OPDOEN",
+     "Order":25,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Phương tiện vận chuyển",
+           "EnName":"Transportation method",
+           "Code":"OPDOENTM0ANS",
+           "Group":"OPDOENTM0",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Họ tên, chức danh, trình độ chuyên môn của người hộ tống",
+     "EnName":"Name and title of medical escort",
+     "Code":"OPDOENNTM",
+     "Group":"OPDOEN",
+     "Order":26,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Họ tên, chức danh, trình độ chuyên môn của người hộ tống",
+           "EnName":"Name and title of medical escort",
+           "Code":"OPDOENNTMANS",
+           "Group":"OPDOENNTM",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Chuyền tuyến hồi",
+     "EnName":"TransferDate",
+     "Code":"OPDOENTD0",
+     "Group":"OPDOEN",
+     "Order":27,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Chuyền tuyến hồi",
+           "EnName":"TransferDate",
+           "Code":"OPDOENTD0ANS",
+           "Group":"OPDOENTD0",
+           "Order":1,
+           "DataType":"DateTime",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Nơi nhận",
+     "EnName":"Receiving IPD",
+     "Code":"OPDOENREC",
+     "Group":"OPDOEN",
+     "Order":28,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Nơi nhận nội trú",
+           "EnName":"Receiving IPD",
+           "Code":"OPDOENRECANS",
+           "Group":"OPDOENREC",
+           "Order":1,
+           "DataType":"Select",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Lý do chuyển cấp cứu",
+     "EnName":"Reason for transfer",
+     "Code":"OPDOENRFT2",
+     "Group":"OPDOEN",
+     "Order":29,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Lý do chuyển cấp cứu",
+           "EnName":"Reason for transfer",
+           "Code":"OPDOENRFT2ANS",
+           "Group":"OPDOENRFT2",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Nơi nhận",
+     "EnName":"Receiving ED",
+     "Code":"OPDOENREC2",
+     "Group":"OPDOEN",
+     "Order":30,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Nơi nhận cấp cứu",
+           "EnName":"Receiving ED",
+           "Code":"OPDOENREC2ANS",
+           "Group":"OPDOENREC2",
+           "Order":1,
+           "DataType":"Select",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Tình trạng người bệnh hiện tại",
+     "EnName":"Patient status ED",
+     "Code":"OPDOENPS2",
+     "Group":"OPDOEN",
+     "Order":31,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Tình trạng người bệnh hiện tại",
+           "EnName":"Patient status ED",
+           "Code":"OPDOENPS2ANS",
+           "Group":"OPDOENPS2",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Kế hoạch tiếp theo",
+     "EnName":"Follow-up plan ED",
+     "Code":"OPDOENFP2",
+     "Group":"OPDOEN",
+     "Order":32,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Kế hoạch tiếp theo",
+           "EnName":"Follow-up plan ED",
+           "Code":"OPDOENFP2ANS",
+           "Group":"OPDOENFP2",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Tình trạng người bệnh hiện tại",
+     "EnName":"Patient status IPD",
+     "Code":"OPDOENPS1",
+     "Group":"OPDOEN",
+     "Order":33,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Tình trạng người bệnh hiện tại",
+           "EnName":"Patient status IPD",
+           "Code":"OPDOENPS1ANS",
+           "Group":"OPDOENPS1",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Kế hoạch tiếp theo",
+     "EnName":"Follow-up plan IPD",
+     "Code":"OPDOENFP1",
+     "Group":"OPDOEN",
+     "Order":34,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Kế hoạch tiếp theo",
+           "EnName":"Follow-up plan IPD",
+           "Code":"OPDOENFP1ANS",
+           "Group":"OPDOENFP1",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-004,FreeTextOnly-005,FreeTextOnly-006,RadioWithNull-001,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Khám toàn thân",
+     "EnName":"Khám toàn thân",
+     "Code":"OPDOENKTT",
+     "Group":"OPDOEN",
+     "Order":35,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám toàn thân",
+           "EnName":"Khám toàn thân",
+           "Code":"OPDOENKTTANS",
+           "Group":"OPDOENKTT",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000, FreeTextOnly-001, FreeTextOnly-005, FreeTextOnly-006,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000, FreeTextOnly-001, FreeTextOnly-005, FreeTextOnly-006,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Khám chuyên khoa",
+     "EnName":"Khám chuyên khoa",
+     "Code":"OPDOENKCK",
+     "Group":"OPDOEN",
+     "Order":36,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám chuyên khoa",
+           "EnName":"Khám chuyên khoa",
+           "Code":"OPDOENKCKANS",
+           "Group":"OPDOENKCK",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000, FreeTextOnly-001,FreeTextOnly-006,RadioYesNo-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000, FreeTextOnly-001,FreeTextOnly-006,RadioYesNo-001"
+  },
+  {
+     "ViName":"Khám tim, phổi",
+     "EnName":"Khám tim, phổi",
+     "Code":"OPDOENKTP",
+     "Group":"OPDOEN",
+     "Order":37,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám tim, phổi",
+           "EnName":"Khám tim, phổi",
+           "Code":"OPDOENKTPANS",
+           "Group":"OPDOENKTP",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001FreeTextOnly-005,FreeTextOnly-006,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001FreeTextOnly-005,FreeTextOnly-006,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Khám các bộ phận khác",
+     "EnName":"Khám các bộ phận khác",
+     "Code":"OPDOENKCBPK",
+     "Group":"OPDOEN",
+     "Order":38,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám các bộ phận khác",
+           "EnName":"Khám các bộ phận khác",
+           "Code":"OPDOENKCBPKANS",
+           "Group":"OPDOENKCBPK",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-005,FreeTextOnly-006,RadioYesNo-001,MultiSelect-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000,FreeTextOnly-001,FreeTextOnly-002,FreeTextOnly-003,FreeTextOnly-005,FreeTextOnly-006,RadioYesNo-001,MultiSelect-001"
+  },
+  {
+     "ViName":"Tiền sử sản khoa",
+     "EnName":"Tiền sử sản khoa",
+     "Code":"OPDOENTSSK",
+     "Group":"OPDOEN",
+     "Order":39,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Tiền sử sản khoa",
+           "EnName":"Tiền sử sản khoa",
+           "Code":"OPDOENTSSKANS",
+           "Group":"OPDOENTSSK",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000"
+  },
+  {
+     "ViName":"Tiền sử kinh nguyệt",
+     "EnName":"Tiền sử kinh nguyệt",
+     "Code":"OPDOENTSKN",
+     "Group":"OPDOEN",
+     "Order":40,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Tiền sử kinh nguyệt",
+           "EnName":"Tiền sử kinh nguyệt",
+           "Code":"OPDOENTSKNANS",
+           "Group":"OPDOENTSKN",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000"
+  },
+  {
+     "ViName":"Tiền sử khác",
+     "EnName":"Tiền sử khác",
+     "Code":"OPDOENTSK",
+     "Group":"OPDOEN",
+     "Order":41,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Tiền sử khác",
+           "EnName":"Tiền sử khác",
+           "Code":"OPDOENTSKANS",
+           "Group":"OPDOENTSK",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-000"
+        }
+     ],
+     "Clinic":"FreeTextOnly-000"
+  },
+  {
+     "ViName":"Người lớn hoặc trẻ em",
+     "EnName":"Người lớn hoặc trẻ em",
+     "Code":"OPDOENNLHTE",
+     "Group":"OPDOEN",
+     "Order":42,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Người lớn",
+           "EnName":"Người lớn",
+           "Code":"OPDOENNLHTENL",
+           "Group":"OPDOENNLHTE",
+           "Order":1,
+           "DataType":"Radio",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"RadioWithNull-001"
+        },
+        {
+           "ViName":"Trẻ em",
+           "EnName":"Trẻ em",
+           "Code":"OPDOENNLHTETE",
+           "Group":"OPDOENNLHTE",
+           "Order":1,
+           "DataType":"Radio",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"RadioWithNull-001"
+        }
+     ],
+     "Clinic":"RadioWithNull-001"
+  },
+  {
+     "ViName":"Biểu hiện chung",
+     "EnName":"Biểu hiện chung",
+     "Code":"OPDOENBHC",
+     "Group":"OPDOEN",
+     "Order":43,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Biểu hiện chung",
+           "EnName":"Biểu hiện chung",
+           "Code":"OPDOENBHCANS",
+           "Group":"OPDOENBHC",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"RadioWithNull-001"
+        }
+     ],
+     "Clinic":"RadioWithNull-001"
+  },
+  {
+     "ViName":"Khám ý thức",
+     "EnName":"Khám ý thức",
+     "Code":"OPDOENKYT",
+     "Group":"OPDOEN",
+     "Order":44,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám ý thức",
+           "EnName":"Khám ý thức",
+           "Code":"OPDOENKYTANS",
+           "Group":"OPDOENKYT",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"RadioWithNull-001"
+        }
+     ],
+     "Clinic":"RadioWithNull-001"
+  },
+  {
+     "ViName":"Khám cảm giác, tri giác",
+     "EnName":"Khám cảm giác, tri giác",
+     "Code":"OPDOENKCGTG",
+     "Group":"OPDOEN",
+     "Order":45,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám cảm giác, tri giác",
+           "EnName":"Khám cảm giác, tri giác",
+           "Code":"OPDOENKCGTGANS",
+           "Group":"OPDOENKCGTG",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"RadioWithNull-001"
+        }
+     ],
+     "Clinic":"RadioWithNull-001"
+  },
+  {
+     "ViName":"Khám tư duy",
+     "EnName":"Khám tư duy",
+     "Code":"OPDOENKTD",
+     "Group":"OPDOEN",
+     "Order":46,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám tư duy",
+           "EnName":"Khám tư duy",
+           "Code":"OPDOENKTDANS",
+           "Group":"OPDOENKTD",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"RadioWithNull-001"
+        }
+     ],
+     "Clinic":"RadioWithNull-001"
+  },
+  {
+     "ViName":"Khám cảm xúc",
+     "EnName":"Khám cảm xúc",
+     "Code":"OPDOENKCX",
+     "Group":"OPDOEN",
+     "Order":47,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám cảm xúc",
+           "EnName":"Khám cảm xúc",
+           "Code":"OPDOENKCXANS",
+           "Group":"OPDOENKCX",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"RadioWithNull-001"
+        }
+     ],
+     "Clinic":"RadioWithNull-001"
+  },
+  {
+     "ViName":"Khám hoạt động",
+     "EnName":"Khám hoạt động",
+     "Code":"OPDOENKHD",
+     "Group":"OPDOEN",
+     "Order":48,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám hoạt động",
+           "EnName":"Khám hoạt động",
+           "Code":"OPDOENKHDANS",
+           "Group":"OPDOENKHD",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"RadioWithNull-001"
+        }
+     ],
+     "Clinic":"RadioWithNull-001"
+  },
+  {
+     "ViName":"Khám chú ý",
+     "EnName":"Khám chú ý",
+     "Code":"OPDOENKCY",
+     "Group":"OPDOEN",
+     "Order":49,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám chú ý",
+           "EnName":"Khám chú ý",
+           "Code":"OPDOENKCYANS",
+           "Group":"OPDOENKCY",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"RadioWithNull-001"
+        }
+     ],
+     "Clinic":"RadioWithNull-001"
+  },
+  {
+     "ViName":"Khám trí nhớ",
+     "EnName":"Khám trí nhớ",
+     "Code":"OPDOENKTN",
+     "Group":"OPDOEN",
+     "Order":50,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám trí nhớ",
+           "EnName":"Khám trí nhớ",
+           "Code":"OPDOENKTNANS",
+           "Group":"OPDOENKTN",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"RadioWithNull-001"
+        }
+     ],
+     "Clinic":"RadioWithNull-001"
+  },
+  {
+     "ViName":"Khám trí tuệ",
+     "EnName":"Khám trí tuệ",
+     "Code":"OPDOENKTRT",
+     "Group":"OPDOEN",
+     "Order":51,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám trí tuệ",
+           "EnName":"Khám trí tuệ",
+           "Code":"OPDOENKTRTANS",
+           "Group":"OPDOENKTRT",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"RadioWithNull-001"
+        }
+     ],
+     "Clinic":"RadioWithNull-001"
+  },
+  {
+     "ViName":"Test tâm lý",
+     "EnName":"Test tâm lý",
+     "Code":"OPDOENTTL",
+     "Group":"OPDOEN",
+     "Order":52,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Test tâm lý",
+           "EnName":"Test tâm lý",
+           "Code":"OPDOENTTLANS",
+           "Group":"OPDOENTTL",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"RadioWithNull-001"
+        }
+     ],
+     "Clinic":"RadioWithNull-001"
+  },
+  {
+     "ViName":"Ngôn ngữ",
+     "EnName":"Ngôn ngữ",
+     "Code":"OPDOENNGNG",
+     "Group":"OPDOEN",
+     "Order":53,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Ngôn ngữ",
+           "EnName":"Ngôn ngữ",
+           "Code":"OPDOENNGNGANS",
+           "Group":"OPDOENNGNG",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-004,RadioWithNull-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-004,RadioWithNull-001"
+  },
+  {
+     "ViName":"Nhận thức, tương tác xã hội",
+     "EnName":"Nhận thức, tương tác xã hội",
+     "Code":"OPDOENNTTTXH",
+     "Group":"OPDOEN",
+     "Order":54,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Nhận thức, tương tác xã hội",
+           "EnName":"Nhận thức, tương tác xã hội",
+           "Code":"OPDOENNTTTXHANS",
+           "Group":"OPDOENNTTTXH",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-004,RadioWithNull-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-004,RadioWithNull-001"
+  },
+  {
+     "ViName":"Hành vi, tập trung chú ý",
+     "EnName":"Hành vi, tập trung chú ý",
+     "Code":"OPDOENHVTTCY",
+     "Group":"OPDOEN",
+     "Order":55,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Hành vi, tập trung chú ý",
+           "EnName":"Hành vi, tập trung chú ý",
+           "Code":"OPDOENHVTTCYANS",
+           "Group":"OPDOENHVTTCY",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-004,RadioWithNull-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-004,RadioWithNull-001"
+  },
+  {
+     "ViName":"Cảm xúc, cảm giác",
+     "EnName":"Cảm xúc, cảm giác",
+     "Code":"OPDOENCGXG",
+     "Group":"OPDOEN",
+     "Order":56,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Cảm xúc, cảm giác",
+           "EnName":"Cảm xúc, cảm giác",
+           "Code":"OPDOENCGXGANS",
+           "Group":"OPDOENCGXG",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-004,RadioWithNull-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-004,RadioWithNull-001"
+  },
+  {
+     "ViName":"Kỹ năng tự phục vụ",
+     "EnName":"Kỹ năng tự phục vụ",
+     "Code":"OPDOENKTTPV",
+     "Group":"OPDOEN",
+     "Order":57,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Kỹ năng tự phục vụ",
+           "EnName":"Kỹ năng tự phục vụ",
+           "Code":"OPDOENKTTPVANS",
+           "Group":"OPDOENKTTPV",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-004,RadioWithNull-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-004,RadioWithNull-001"
+  },
+  {
+     "ViName":"Một số test tâm lý cần thiết",
+     "EnName":"Một số test tâm lý cần thiết",
+     "Code":"OPDOENMSTTLCT",
+     "Group":"OPDOEN",
+     "Order":58,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Một số test tâm lý cần thiết",
+           "EnName":"Một số test tâm lý cần thiết",
+           "Code":"OPDOENMSTTLCTANS",
+           "Group":"OPDOENMSTTLCT",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-004,RadioWithNull-001"
+        }
+     ],
+     "Clinic":"FreeTextOnly-004,RadioWithNull-001"
+  },
+  {
+     "ViName":"Tuổi",
+     "EnName":"Tuổi",
+     "Code":"OPDOENTUOI",
+     "Group":"OPDOEN",
+     "Order":59,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Trên 19 tuổi",
+           "EnName":"Trên 19 tuổi",
+           "Code":"OPDOENTUOI19",
+           "Group":"OPDOENTUOI",
+           "Order":1,
+           "DataType":"Radio",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-002"
+        },
+        {
+           "ViName":"5-19 tuổi",
+           "EnName":"5-19 tuổi",
+           "Code":"OPDOENTUOI519",
+           "Group":"OPDOENTUOI",
+           "Order":2,
+           "DataType":"Radio",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-002"
+        },
+        {
+           "ViName":"Dưới 5 tuổi",
+           "EnName":"Dưới 5 tuổi",
+           "Code":"OPDOENTUOI5",
+           "Group":"OPDOENTUOI",
+           "Order":3,
+           "DataType":"Radio",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-002"
+        }
+     ],
+     "Clinic":"FreeTextOnly-002"
+  },
+  {
+     "ViName":"BMI",
+     "EnName":"BMI",
+     "Code":"OPDOENBMI",
+     "Group":"OPDOEN",
+     "Order":60,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"BMI",
+           "EnName":"BMI",
+           "Code":"OPDOENBMIANS",
+           "Group":"OPDOENBMI",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-002"
+        }
+     ],
+     "Clinic":"FreeTextOnly-002"
+  },
+  {
+     "ViName":"Khám tình trạng tăng hoặc giảm cân",
+     "EnName":"Khám tình trạng tăng hoặc giảm cân",
+     "Code":"OPDOENKTTTHGC",
+     "Group":"OPDOEN",
+     "Order":61,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám tình trạng tăng hoặc giảm cân",
+           "EnName":"Khám tình trạng tăng hoặc giảm cân",
+           "Code":"OPDOENKTTTHGCANS",
+           "Group":"OPDOENKTTTHGC",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-002"
+        }
+     ],
+     "Clinic":"FreeTextOnly-002"
+  },
+  {
+     "ViName":"Đánh giá cảm giác ngon miệng, nôn/trớ, đại tiểu tiện",
+     "EnName":"Đánh giá cảm giác ngon miệng, nôn/trớ, đại tiểu tiện",
+     "Code":"OPDOENDGCGNM",
+     "Group":"OPDOEN",
+     "Order":62,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá cảm giác ngon miệng, nôn/trớ, đại tiểu tiện",
+           "EnName":"Đánh giá cảm giác ngon miệng, nôn/trớ, đại tiểu tiện",
+           "Code":"OPDOENDGCGNMANS",
+           "Group":"OPDOENDGCGNM",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-002"
+        }
+     ],
+     "Clinic":"FreeTextOnly-002"
+  },
+  {
+     "ViName":"Đánh giá da, niêm mạc, tóc, móng, răng, giấc ngủ",
+     "EnName":"Đánh giá da, niêm mạc, tóc, móng, răng, giấc ngủ",
+     "Code":"OPDOENDGDNM",
+     "Group":"OPDOEN",
+     "Order":63,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá da, niêm mạc, tóc, móng, răng, giấc ngủ",
+           "EnName":"Đánh giá da, niêm mạc, tóc, móng, răng, giấc ngủ",
+           "Code":"OPDOENDGDNMANS",
+           "Group":"OPDOENDGDNM",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-002"
+        }
+     ],
+     "Clinic":"FreeTextOnly-002"
+  },
+  {
+     "ViName":"Khám lồng ngực, xương, khớp xương sọ, thóp",
+     "EnName":"Khám lồng ngực, xương, khớp xương sọ, thóp",
+     "Code":"OPDOENKLN",
+     "Group":"OPDOEN",
+     "Order":64,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám lồng ngực, xương, khớp xương sọ, thóp",
+           "EnName":"Khám lồng ngực, xương, khớp xương sọ, thóp",
+           "Code":"OPDOENKLNANS",
+           "Group":"OPDOENKLN",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-002"
+        }
+     ],
+     "Clinic":"FreeTextOnly-002"
+  },
+  {
+     "ViName":"Bệnh nhân thực hiện phẫu thuật/thủ thuật",
+     "EnName":"Bệnh nhân thực hiện phẫu thuật/thủ thuật",
+     "Code":"OPDOENBNTHPT",
+     "Group":"OPDOEN",
+     "Order":66,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Có",
+           "EnName":"Có",
+           "Code":"OPDOENBNTHPTYES",
+           "Group":"OPDOENBNTHPT",
+           "Order":1,
+           "DataType":"Radio",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"RadioYesNo-001"
+        },
+        {
+           "ViName":"Không",
+           "EnName":"Không",
+           "Code":"OPDOENBNTHPTNOO",
+           "Group":"OPDOENBNTHPT",
+           "Order":2,
+           "DataType":"Radio",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"RadioYesNo-001"
+        }
+     ],
+     "Clinic":"RadioYesNo-001"
+  },
+  {
+     "ViName":"Khám tim mạch",
+     "EnName":"Khám tim mạch",
+     "Code":"OPDOENKTM",
+     "Group":"OPDOEN",
+     "Order":67,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám tim mạch",
+           "EnName":"Khám tim mạch",
+           "Code":"OPDOENKTMANS",
+           "Group":"OPDOENKTM",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-003"
+        }
+     ],
+     "Clinic":"FreeTextOnly-003"
+  },
+  {
+     "ViName":"Khám hô hấp",
+     "EnName":"Khám hô hấp",
+     "Code":"OPDOENKHH",
+     "Group":"OPDOEN",
+     "Order":68,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám hô hấp",
+           "EnName":"Khám hô hấp",
+           "Code":"OPDOENKHHANS",
+           "Group":"OPDOENKHH",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-003"
+        }
+     ],
+     "Clinic":"FreeTextOnly-003"
+  },
+  {
+     "ViName":"Đánh giá",
+     "EnName":"Đánh giá",
+     "Code":"OPDOENDG",
+     "Group":"OPDOEN",
+     "Order":69,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Phục hồi chức năng vận động ",
+           "EnName":"Phục hồi chức năng vận động ",
+           "Code":"OPDOENDGVD",
+           "Group":"OPDOENDG",
+           "Order":1,
+           "DataType":"CheckBox",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        },
+        {
+           "ViName":"Phục hồi chức năng tim mạch, hô hấp",
+           "EnName":"Phục hồi chức năng tim mạch, hô hấp",
+           "Code":"OPDOENDGTMHH",
+           "Group":"OPDOENDG",
+           "Order":2,
+           "DataType":"CheckBox",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        },
+        {
+           "ViName":"Phục hồi chức năng thần kinh",
+           "EnName":"Phục hồi chức năng thần kinh",
+           "Code":"OPDOENDGTK",
+           "Group":"OPDOENDG",
+           "Order":3,
+           "DataType":"CheckBox",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        }
+     ],
+     "Clinic":"MultiSelect-001"
+  },
+  {
+     "ViName":"Đánh giá mức độ mất chức năng của khu vực tổn thương",
+     "EnName":"Đánh giá mức độ mất chức năng của khu vực tổn thương",
+     "Code":"OPDOENMCN",
+     "Group":"OPDOEN",
+     "Order":70,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá mức độ mất chức năng của khu vực tổn thương",
+           "EnName":"Đánh giá mức độ mất chức năng của khu vực tổn thương",
+           "Code":"OPDOENMCNANS",
+           "Group":"OPDOENMCN",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        }
+     ],
+     "Clinic":"MultiSelect-001"
+  },
+  {
+     "ViName":"Đánh gía khả năng di chuyển trên mặt bằng phẳng",
+     "EnName":"Đánh gía khả năng di chuyển trên mặt bằng phẳng",
+     "Code":"OPDOENDCT",
+     "Group":"OPDOEN",
+     "Order":71,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh gía khả năng di chuyển trên mặt bằng phẳng",
+           "EnName":"Đánh gía khả năng di chuyển trên mặt bằng phẳng",
+           "Code":"OPDOENDCTANS",
+           "Group":"OPDOENDCT",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        }
+     ],
+     "Clinic":"MultiSelect-001"
+  },
+  {
+     "ViName":"Đánh giá khả năng thay đổi tư thế (nằm – ngồi – đứng)",
+     "EnName":"Đánh giá khả năng thay đổi tư thế (nằm – ngồi – đứng)",
+     "Code":"OPDOENTDTT",
+     "Group":"OPDOEN",
+     "Order":72,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá khả năng thay đổi tư thế (nằm – ngồi – đứng)",
+           "EnName":"Đánh giá khả năng thay đổi tư thế (nằm – ngồi – đứng)",
+           "Code":"OPDOENTDTTANS",
+           "Group":"OPDOENTDTT",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        }
+     ],
+     "Clinic":"MultiSelect-001"
+  },
+  {
+     "ViName":"Đánh giá khả năng thực hiện các vận động phối hợp (vươn người bắt tay, cúi người nhặt dép)",
+     "EnName":"Đánh giá khả năng thực hiện các vận động phối hợp (vươn người bắt tay, cúi người nhặt dép)",
+     "Code":"OPDOENTHCVD",
+     "Group":"OPDOEN",
+     "Order":73,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá khả năng thực hiện các vận động phối hợp (vươn người bắt tay, cúi người nhặt dép)",
+           "EnName":"Đánh giá khả năng thực hiện các vận động phối hợp (vươn người bắt tay, cúi người nhặt dép)",
+           "Code":"OPDOENTHCVDANS",
+           "Group":"OPDOENTHCVD",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        }
+     ],
+     "Clinic":"MultiSelect-001"
+  },
+  {
+     "ViName":"Đánh giá khả năng PHCN và mức độ di chứng",
+     "EnName":"Đánh giá khả năng PHCN và mức độ di chứng",
+     "Code":"OPDOENPHCN",
+     "Group":"OPDOEN",
+     "Order":74,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá khả năng PHCN và mức độ di chứng",
+           "EnName":"Đánh giá khả năng PHCN và mức độ di chứng",
+           "Code":"OPDOENPHCNANS",
+           "Group":"OPDOENPHCN",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        }
+     ],
+     "Clinic":"MultiSelect-001"
+  },
+  {
+     "ViName":"Đánh giá chức năng hô hấp (Dung tích sống, nhịp thở..)",
+     "EnName":"Đánh giá chức năng hô hấp (Dung tích sống, nhịp thở..)",
+     "Code":"OPDOENCNHH",
+     "Group":"OPDOEN",
+     "Order":75,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá chức năng hô hấp (Dung tích sống, nhịp thở..)",
+           "EnName":"Đánh giá chức năng hô hấp (Dung tích sống, nhịp thở..)",
+           "Code":"OPDOENCNHHANS",
+           "Group":"OPDOENCNHH",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        }
+     ],
+     "Clinic":"MultiSelect-001"
+  },
+  {
+     "ViName":"Đánh giá sự cân đối và độ di động lồng ngực",
+     "EnName":"Đánh giá sự cân đối và độ di động lồng ngực",
+     "Code":"OPDOENSCD",
+     "Group":"OPDOEN",
+     "Order":76,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá sự cân đối và độ di động lồng ngực",
+           "EnName":"Đánh giá sự cân đối và độ di động lồng ngực",
+           "Code":"OPDOENSCDANS",
+           "Group":"OPDOENSCD",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        }
+     ],
+     "Clinic":"MultiSelect-001"
+  },
+  {
+     "ViName":"Đánh giá khă năng gắng sức",
+     "EnName":"Đánh giá khă năng gắng sức",
+     "Code":"OPDOENKNGS",
+     "Group":"OPDOEN",
+     "Order":77,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá khă năng gắng sức",
+           "EnName":"Đánh giá khă năng gắng sức",
+           "Code":"OPDOENKNGSANS",
+           "Group":"OPDOENKNGS",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        }
+     ],
+     "Clinic":"MultiSelect-001"
+  },
+  {
+     "ViName":"Đánh giá mức độ thay đổi nhịp tim sau vận động",
+     "EnName":"Đánh giá mức độ thay đổi nhịp tim sau vận động",
+     "Code":"OPDOENTDNT",
+     "Group":"OPDOEN",
+     "Order":78,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá mức độ thay đổi nhịp tim sau vận động",
+           "EnName":"Đánh giá mức độ thay đổi nhịp tim sau vận động",
+           "Code":"OPDOENTDNTANS",
+           "Group":"OPDOENTDNT",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        }
+     ],
+     "Clinic":"MultiSelect-001"
+  },
+  {
+     "ViName":"Đánh giá khả năng giao tiếp (tinh thần, phát âm…)",
+     "EnName":"Đánh giá khả năng giao tiếp (tinh thần, phát âm…)",
+     "Code":"OPDOENKNGT",
+     "Group":"OPDOEN",
+     "Order":79,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá khả năng giao tiếp (tinh thần, phát âm…)",
+           "EnName":"Đánh giá khả năng giao tiếp (tinh thần, phát âm…)",
+           "Code":"OPDOENKNGTANS",
+           "Group":"OPDOENKNGT",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        }
+     ],
+     "Clinic":"MultiSelect-001"
+  },
+  {
+     "ViName":"Đánh giá tình trạng rối loạn nuốt",
+     "EnName":"Đánh giá tình trạng rối loạn nuốt",
+     "Code":"OPDOENTTRLN",
+     "Group":"OPDOEN",
+     "Order":80,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá tình trạng rối loạn nuốt",
+           "EnName":"Đánh giá tình trạng rối loạn nuốt",
+           "Code":"OPDOENTTRLNANS",
+           "Group":"OPDOENTTRLN",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        }
+     ],
+     "Clinic":"MultiSelect-001"
+  },
+  {
+     "ViName":"Đánh giá khả năng nhận thức không gian, thời gian",
+     "EnName":"Đánh giá khả năng nhận thức không gian, thời gian",
+     "Code":"OPDOENNTKG",
+     "Group":"OPDOEN",
+     "Order":81,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá khả năng nhận thức không gian, thời gian",
+           "EnName":"Đánh giá khả năng nhận thức không gian, thời gian",
+           "Code":"OPDOENNTKGANS",
+           "Group":"OPDOENNTKG",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        }
+     ],
+     "Clinic":"MultiSelect-001"
+  },
+  {
+     "ViName":"Đánh giá khả năng điều vận (tầm, hướng, thăng bằng)",
+     "EnName":"Đánh giá khả năng điều vận (tầm, hướng, thăng bằng)",
+     "Code":"OPDOENDVTH",
+     "Group":"OPDOEN",
+     "Order":82,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá khả năng điều vận (tầm, hướng, thăng bằng)",
+           "EnName":"Đánh giá khả năng điều vận (tầm, hướng, thăng bằng)",
+           "Code":"OPDOENDVTHANS",
+           "Group":"OPDOENDVTH",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        }
+     ],
+     "Clinic":"MultiSelect-001"
+  },
+  {
+     "ViName":"Đánh giá khả năng di chuyển độc lập ở nơi bằng phẳng",
+     "EnName":"Đánh giá khả năng di chuyển độc lập ở nơi bằng phẳng",
+     "Code":"OPDOENDCDL",
+     "Group":"OPDOEN",
+     "Order":83,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá khả năng di chuyển độc lập ở nơi bằng phẳng",
+           "EnName":"Đánh giá khả năng di chuyển độc lập ở nơi bằng phẳng",
+           "Code":"OPDOENDCDLANS",
+           "Group":"OPDOENDCDL",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"MultiSelect-001"
+        }
+     ],
+     "Clinic":"MultiSelect-001"
+  },
+  {
+     "ViName":"Các cơ quan khác (Tim, phổi, tiêu hóa, …)",
+     "EnName":"Các cơ quan khác (Tim, phổi, tiêu hóa, …)",
+     "Code":"OPDOENCCQK",
+     "Group":"OPDOEN",
+     "Order":84,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Các cơ quan khác (Tim, phổi, tiêu hóa, …)",
+           "EnName":"Các cơ quan khác (Tim, phổi, tiêu hóa, …)",
+           "Code":"OPDOENCCQKANS",
+           "Group":"OPDOENCCQK",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-004"
+        }
+     ],
+     "Clinic":"FreeTextOnly-004"
+  },
+  {
+     "ViName":"Khám tai mũi họng",
+     "EnName":"Khám tai mũi họng",
+     "Code":"OPDOENKTMH",
+     "Group":"OPDOEN",
+     "Order":85,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám tai mũi họng",
+           "EnName":"Khám tai mũi họng",
+           "Code":"OPDOENKTMHANS",
+           "Group":"OPDOENKTMH",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-005"
+        }
+     ],
+     "Clinic":"FreeTextOnly-005"
+  },
+  {
+     "ViName":"Khám dinh dưỡng",
+     "EnName":"Khám dinh dưỡng",
+     "Code":"OPDOENKDD",
+     "Group":"OPDOEN",
+     "Order":86,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Khám dinh dưỡng",
+           "EnName":"Khám dinh dưỡng",
+           "Code":"OPDOENKDDANS",
+           "Group":"OPDOENKDD",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-005,FreeTextOnly-006"
+        }
+     ],
+     "Clinic":"FreeTextOnly-005,FreeTextOnly-006"
+  },
+  {
+     "ViName":"Đánh giá tiêm chủng",
+     "EnName":"Đánh giá tiêm chủng",
+     "Code":"OPDOENTC",
+     "Group":"OPDOEN",
+     "Order":87,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá tiêm chủng",
+           "EnName":"Đánh giá tiêm chủng",
+           "Code":"OPDOENTCANS",
+           "Group":"OPDOENTC",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-005,FreeTextOnly-006"
+        }
+     ],
+     "Clinic":"FreeTextOnly-005,FreeTextOnly-006"
+  },
+  {
+     "ViName":"Đánh giá phát triển vận động theo tuổi",
+     "EnName":"Đánh giá phát triển vận động theo tuổi",
+     "Code":"OPDOENPTVD",
+     "Group":"OPDOEN",
+     "Order":88,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá phát triển vận động theo tuổi",
+           "EnName":"Đánh giá phát triển vận động theo tuổi",
+           "Code":"OPDOENPTVDANS",
+           "Group":"OPDOENPTVD",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-005,FreeTextOnly-006"
+        }
+     ],
+     "Clinic":"FreeTextOnly-005,FreeTextOnly-006"
+  },
+  {
+     "ViName":"Đánh giá phát triển tinh thần theo tuổi",
+     "EnName":"Đánh giá phát triển tinh thần theo tuổi",
+     "Code":"OPDOENPTTT",
+     "Group":"OPDOEN",
+     "Order":89,
+     "DataType":"",
+     "Level":1,
+     "Items":[
+        {
+           "ViName":"Đánh giá phát triển tinh thần theo tuổi",
+           "EnName":"Đánh giá phát triển tinh thần theo tuổi",
+           "Code":"OPDOENPTTTANS",
+           "Group":"OPDOENPTTT",
+           "Order":1,
+           "DataType":"Text",
+           "Level":2,
+           "Value":"",
+           "Id":"",
+           "IsReadOnly":false,
+           "Note":"",
+           "Data":"",
+           "Clinic":"FreeTextOnly-005,FreeTextOnly-006"
+        }
+     ],
+     "Clinic":"FreeTextOnly-005,FreeTextOnly-006"
+  }
+]

@@ -1,0 +1,6 @@
+@page {
+  margin: 15mm 20mm 0 20mm;
+}
+.only-web-page {
+  display: none !important
+}

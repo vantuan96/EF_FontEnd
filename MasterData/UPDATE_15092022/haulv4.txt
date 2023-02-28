@@ -1,0 +1,9 @@
+-- Biên bản hội chẩn thông qua mổ ver 3
+Update MasterDatas set EnName = N'Type of surgery', ViName = N'Loại phẫu thuật' where code = N'EDJCFAOSTOS';
+Update MasterDatas set EnName = N'Special', ViName = N'Đặc biệt' where code = N'EDJCFAOSTOS1';
+Update MasterDatas set EnName = N'Type I', ViName = N'Loại I' where code = N'EDJCFAOSTOS2';
+Update MasterDatas set EnName = N'Type II', ViName = N'Loại II' where code = N'EDJCFAOSTOS3';
+Update MasterDatas set EnName = N'Type III', ViName = N'Loại III' where code = N'EDJCFAOSTOS4';
+
+-- Nhóm KHSBA Biên bản hội chẩn thông qua mổ
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Biên bản hội chẩn thông qua mổ',N'Biên bản hội chẩn thông qua mổ',N'JointConsultationForApprovalOfSurgery',N'OPDPTTT',N'OPDNHOMBIEUMAU',N'2',N'5',N'',N'',N'',N'',N'', '');

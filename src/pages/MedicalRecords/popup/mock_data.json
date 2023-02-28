@@ -1,0 +1,125 @@
+{
+  "results": [
+      {
+          "ViName": "Coronavirus đa tác nhân Real-time PCR (mẫu đơn) - CBNV VinGroup",
+          "EnName": "Coronavirus Multiplex real-time RT-PCR - for Vingroup\r\n",
+          "Code": "XV-322         ",
+          "Datas": [
+              {},
+              {},
+              {},
+              {
+                  "CategoryCode": "VS7                 ",
+                  "ResultBy": "nthuy",
+                  "ItemCode": "25.5088",
+                  "ItemNameV": "Coronavirus đa tác nhân Real-time PCR (mẫu đơn) - CBNV VinGroup",
+                  "CategoryNameE": "Microbiology - Molecular diagnostic",
+                  "SiteCode": "HHN",
+                  "ResultAt": "2022-01-20T22:56:50.13+07:00",
+                  "TestCode": "XV-322         ",
+                  "CollectedBy": "htha",
+                  "TestNameE": "Coronavirus Multiplex real-time RT-PCR - for Vingroup\r\n",
+                  "PID": "821021157   ",
+                  "Unit": null,
+                  "SID": "200122-3677659   ",
+                  "Result": "Âm tính/Negative",
+                  "NormalRange": "Âm tính",
+                  "LowerLimit": null,
+                  "TestNameV": "Coronavirus đa tác nhân Real-time PCR (mẫu đơn) - CBNV VinGroup",
+                  "CollectedAt": "2022-01-20T22:56:26.143+07:00",
+                  "ItemNameE": "Coronavirus đa tác nhân Real-time PCR (mẫu đơn) - CBNV VinGroup",
+                  "HigherLimit": null,
+                  "ServiceByAD": "nthuy     ",
+                  "Sub_SID": "3677659",
+                  "itemCode": "25.5088"
+              }
+          ],
+          "Count": 4,
+          "ResultList": [
+              "Âm tính/Negative"
+          ]
+      }
+  ],
+  "cols": [
+      {
+          "Id": "2022-02-25T00:00:00+07:00",
+          "Title": "25/02/2022",
+          "Ad": null,
+          "SID": null,
+          "VisitCode": "1162231",
+          "Item": null
+      },
+      {
+          "Id": "2022-02-25T00:00:00+07:00",
+          "Title": "25/02/2022",
+          "Ad": null,
+          "SID": null,
+          "VisitCode": "1160357",
+          "Item": null
+      },
+      {
+          "Id": "2022-01-27T00:00:00+07:00",
+          "Title": "27/01/2022",
+          "Ad": null,
+          "SID": "3713758",
+          "VisitCode": "394045",
+          "Item": {
+              "CategoryCode": "VS7                 ",
+              "ResultBy": "ntthang",
+              "ItemCode": "25.5088",
+              "ItemNameV": "Coronavirus đa tác nhân Real-time PCR (mẫu đơn) - CBNV VinGroup",
+              "CategoryNameE": "Microbiology - Molecular diagnostic",
+              "SiteCode": "HHN",
+              "ResultAt": "2022-01-27T14:06:00.88+07:00",
+              "TestCode": "XV-322         ",
+              "CollectedBy": "nthang",
+              "TestNameE": "Coronavirus Multiplex real-time RT-PCR - for Vingroup\r\n",
+              "PID": "821021157   ",
+              "Unit": null,
+              "SID": "270122-3713758   ",
+              "Result": "Âm tính/Negative",
+              "NormalRange": "Âm tính",
+              "LowerLimit": null,
+              "TestNameV": "Coronavirus đa tác nhân Real-time PCR (mẫu đơn) - CBNV VinGroup",
+              "CollectedAt": "2022-01-27T14:05:40.787+07:00",
+              "ItemNameE": "Coronavirus đa tác nhân Real-time PCR (mẫu đơn) - CBNV VinGroup",
+              "HigherLimit": null,
+              "ServiceByAD": "ntthang   ",
+              "Sub_SID": "3713758",
+              "itemCode": "25.5088"
+          }
+      },
+      {
+          "Id": "2022-01-20T18:59:53+07:00",
+          "Title": "20/01/2022",
+          "Ad": null,
+          "SID": "3677659",
+          "VisitCode": "182868",
+          "Item": {
+              "CategoryCode": "VS7                 ",
+              "ResultBy": "nthuy",
+              "ItemCode": "25.5088",
+              "ItemNameV": "Coronavirus đa tác nhân Real-time PCR (mẫu đơn) - CBNV VinGroup",
+              "CategoryNameE": "Microbiology - Molecular diagnostic",
+              "SiteCode": "HHN",
+              "ResultAt": "2022-01-20T22:56:50.13+07:00",
+              "TestCode": "XV-322         ",
+              "CollectedBy": "htha",
+              "TestNameE": "Coronavirus Multiplex real-time RT-PCR - for Vingroup\r\n",
+              "PID": "821021157   ",
+              "Unit": null,
+              "SID": "200122-3677659   ",
+              "Result": "Âm tính/Negative",
+              "NormalRange": "Âm tính",
+              "LowerLimit": null,
+              "TestNameV": "Coronavirus đa tác nhân Real-time PCR (mẫu đơn) - CBNV VinGroup",
+              "CollectedAt": "2022-01-20T22:56:26.143+07:00",
+              "ItemNameE": "Coronavirus đa tác nhân Real-time PCR (mẫu đơn) - CBNV VinGroup",
+              "HigherLimit": null,
+              "ServiceByAD": "nthuy     ",
+              "Sub_SID": "3677659",
+              "itemCode": "25.5088"
+          }
+      }
+  ]
+}

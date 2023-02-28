@@ -1,0 +1,83 @@
+/* Custom vue-select */
+.v-select .dropdown-toggle {
+  padding: 3px 0;
+  border-radius: 3px;
+  border-color: #ddd;
+}
+
+.v-select input[type=search], .v-select input[type=search]:focus {
+  margin: 2px 0;
+}
+
+.v-select .selected-tag {
+  margin: 0;
+  color: black;
+  background-color: #CCCCCC;
+}
+
+.medical-records-btn {
+  background: linear-gradient(180deg, #FFDB71 0%, #F3B600 100%);
+  border-radius: 15px !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+.custom-table-head {
+  background-color: #337AB7 !important;
+  color: #fff;
+}
+
+.custom-table-head td {
+  padding: 9px 9px;
+  border: none !important;
+}
+.full-width {
+  width: 100%
+}
+.padding-right-0 {
+  padding-right: 0px !important;
+}
+
+.standing-order-tbl {
+  width: 100%;
+  border: 1px solid #DADCE0;
+}
+.standing-order-tblnew {
+  width: 100%;
+  border: 1px solid #DADCE0;
+}
+
+.standing-order-tbl th {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 7px;
+  border: 1px solid #ccc;
+}
+.standing-order-tblnew th {
+  background-color: #1375ba;
+  color: #fff;
+  padding: 7px;
+  border: 1px solid #ccc;
+}
+.standing-order-tbl td {
+  padding: 5px;
+  border: 1px solid #DADCE0;
+  
+}
+.standing-order-tblnew td {
+  padding: 5px;
+  border: 1px solid #DADCE0;
+  
+}
+.standing-order-tbl td.wrap {
+  white-space: pre-wrap;
+}
+.standing-order-tblnew td.wrap {
+  white-space: pre-wrap;
+}
+#StandingOrder-Page .dropdown-menu a{
+  padding: 5px 10px !important;
+}
+#StandingOrder-Page .dropdown-menu a{
+  white-space: inherit !important;
+}

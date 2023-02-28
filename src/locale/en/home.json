@@ -1,0 +1,16 @@
+{
+  "danh_sach_benh_nhan": "Patient list",
+  "tim_kiem_benh_nhan": "Search a patient",
+  "placeholder_search": "PID, name or phone number",
+  "tim_kiem": "Search",
+  "them_benh_nhan": "Add a patient",
+  "loc_benh_nhan": "Filter by",
+  "trang_thai": "Status",
+  "trang_thai_cap_cuu": "Triage",
+  "tinh_trang_gap_bac_si": "Tình trạng gặp bác sĩ",
+  "loc": "Filter",
+  "reset": "Reset",
+  "chua_gap_bac_si": "Not seen doctor",
+  "da_gap_bac_si": "Seen by doctor",
+  "chua_phan_loai": "Not triaged"
+}

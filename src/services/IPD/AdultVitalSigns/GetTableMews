@@ -1,0 +1,14 @@
+import Service from '../../Service'
+
+class GetTableMews extends Service {
+  /**
+   * The constructor for the ArtistProxy.
+   *
+   * @param {Object} parameters The query parameters.
+   */
+  constructor (data = {}) {
+    super('api/IPD/VitalSignAdult/GetByVisitId/', data)
+  }
+}
+
+export default GetTableMews

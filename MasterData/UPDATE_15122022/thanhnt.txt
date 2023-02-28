@@ -1,0 +1,11 @@
+
+--- 
+delete from MasterDatas where Code in('PFEFSPCHTEXTCD2', 'PFEFSPCHTEXTCD1', 'PFEFSPCHTEXT') and Form = 'PFEF'
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Nếu chọn Rào cản ngôn ngữ',N'Nếu chọn Rào cản ngôn ngữ',N'PFEFSPCHTEXT',N'PFEF',N'PFEF',N'1',N'1047',N'Label',N'',N'0',N'',N'', '');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Rào cản ngôn ngữ',N'Speech or language barrier',N'PFEFSPCHTEXTCD1',N'PFEFSPCHTEXT',N'PFEF',N'2',N'1048',N'Text',N'',N'0',N'',N'', '');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Rào cản cảm xúc hoặc động lực',N'Emotional or motivation barrier',N'PFEFSPCHTEXTCD2',N'PFEFSPCHTEXT',N'PFEF',N'2',N'1049',N'Text',N'',N'0',N'',N'', '');
+ ---
+ delete from MasterDatas where Form in ('A03_045_290422_VE', 'IPDGDSK')
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Người thực hiện',N'Completed by',N'CONFIRMIPDGDSK',N'CONFIRMIPDGDSKCONFIRM',N'IPDGDSK',N'1',N'1',N'ConfirmForm',N'',N'',N'',N'', '1');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Người thực hiện',N'Completed by',N'CONFIRMIPDGDSK',N'CONFIRMIPDGDSKCONFIRM',N'A03_045_290422_VE',N'1',N'1',N'ConfirmForm',N'',N'',N'',N'', '1');
+

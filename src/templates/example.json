@@ -1,0 +1,34 @@
+{
+  "time":1550476186479,
+  "blocks":[
+    {
+      "type":"content_box",
+      "style":"",
+      "style_list":"",
+      "icon_list":"",
+      "data":{
+        "items":[
+          {
+            "type":"image",
+            "link":"",
+            "image":""
+          },
+          {
+            "type":"box",
+            "title":"",
+            "description":"",
+            "icon":"",
+            "link":"",
+            "image":""
+          },
+          {
+            "type":"image",
+            "link":"",
+            "image":""
+          }
+        ]
+      }
+    }
+  ],
+  "version":"2.8.1"
+}

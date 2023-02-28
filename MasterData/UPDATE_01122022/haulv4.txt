@@ -1,0 +1,44 @@
+--- Deploy 01/12/2022
+--- FALLRISKSCREENINGCONFIRM
+INSERT INTO [dbo].[Forms]([Id], [IsDeleted], [DeletedBy], [DeletedAt], [CreatedBy], [CreatedAt], [UpdatedBy], [UpdatedAt], [Name], [Code], [VisitTypeGroupCode]) VALUES (NEWID(), 0, NULL, NULL, NULL, '2022-11-11 00:00:00.000', NULL, '2022-11-11 00:00:00.000', N'Xác nhận đánh giá nguy cơ ngã', 'FALLRISKSCREENINGCONFIRM', 'ED');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Người thực hiện',N'Completed by',N'FALLRISKSCREENING_DD_USERCREATED',N'FALLRISKSCREENINGCONFIRM',N'FALLRISKSCREENINGCONFIRM',N'1',N'1',N'ConfirmForm',N'',N'',N'',N'', '1');
+
+--- INITIALASSESSMENTSHORT
+INSERT INTO [dbo].[Forms]([Id], [IsDeleted], [DeletedBy], [DeletedAt], [CreatedBy], [CreatedAt], [UpdatedBy], [UpdatedAt], [Name], [Code], [VisitTypeGroupCode]) VALUES (NEWID(), 0, NULL, NULL, NULL, '2022-11-15 00:00:00.000', NULL, '2022-11-15 00:00:00.000', N'ĐGBĐ NB ngoại trú thông thường', 'INITIALASSESSMENTSHORTCONFIRM', 'OPD');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'NV tiếp đón thực hiện',N'Completed by (Reception staff)',N'INITIALASSESSMENTSHORTCONFIRM_RS_USERCREATED',N'INITIALASSESSMENTSHORTCONFIRM',N'INITIALASSESSMENTSHORTCONFIRM',N'1',N'1',N'ConfirmForm',N'',N'',N'',N'', '1');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'ĐD thực hiện',N'Completed by (Nurse)',N'INITIALASSESSMENTSHORTCONFIRM_DD_USERCREATED',N'INITIALASSESSMENTSHORTCONFIRM',N'INITIALASSESSMENTSHORTCONFIRM',N'1',N'1',N'ConfirmForm',N'',N'',N'',N'', '1');
+
+--- PHCCONFIRM
+INSERT INTO [dbo].[Forms]([Id], [IsDeleted], [DeletedBy], [DeletedAt], [CreatedBy], [CreatedAt], [UpdatedBy], [UpdatedAt], [Name], [Code], [VisitTypeGroupCode]) VALUES (NEWID(), 0, NULL, NULL, NULL, '2022-11-21 00:00:00.000', NULL, '2022-11-21 00:00:00.000', N'Bảng kiểm chuẩn bị và bàn giao người bệnh trước phẫu thuật', 'PHCCONFIRM', 'ED');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Điều dưỡng chuẩn bị',N'Ward nurse',N'PHCCONFIRM_WDN',N'PHCCONFIRM',N'PHCCONFIRM',N'1',N'1',N'ConfirmForm',N'',N'',N'',N'', '1');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Điều dưỡng chuyển người bệnh',N'Escort nurse',N'PHCCONFIRM_ETN',N'PHCCONFIRM',N'PHCCONFIRM',N'1',N'1',N'ConfirmForm',N'',N'',N'',N'', '1');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Điều dưỡng tiếp nhận người bệnh',N'Receiving nurse',N'PHCCONFIRM_RGN',N'PHCCONFIRM',N'PHCCONFIRM',N'1',N'1',N'ConfirmForm',N'',N'',N'',N'', '1');
+
+--- DischargeMedicalReport
+INSERT INTO [dbo].[Forms]([Id], [IsDeleted], [DeletedBy], [DeletedAt], [CreatedBy], [CreatedAt], [UpdatedBy], [UpdatedAt], [Name], [Code], [VisitTypeGroupCode]) VALUES (NEWID(), 0, NULL, NULL, NULL, '2021-11-23 00:00:00.000', NULL, '2021-11-23 00:00:00.000', N'Báo cáo y tế ra viện', 'DISCHARGEMEDICALREPORT', 'ED')
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Bác sỹ điều trị',N'Physician in charge',N'DISCHARGEMEDICALREPORT_PHY',N'DISCHARGEMEDICALREPORT',N'DISCHARGEMEDICALREPORT',N'1',N'1',N'ConfirmForm',N'',N'',N'',N'', '1');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Trưởng khoa',N'Dept head',N'DISCHARGEMEDICALREPORT_DEP',N'DISCHARGEMEDICALREPORT',N'DISCHARGEMEDICALREPORT',N'1',N'2',N'ConfirmForm',N'',N'',N'',N'', '1');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Giám đốc',N'Director',N'DISCHARGEMEDICALREPORT_DIR',N'DISCHARGEMEDICALREPORT',N'DISCHARGEMEDICALREPORT',N'1',N'3',N'ConfirmForm',N'',N'',N'',N'', '1');
+
+--- MEDICALREPORTCONFIRM
+INSERT INTO [dbo].[Forms]([Id], [IsDeleted], [DeletedBy], [DeletedAt], [CreatedBy], [CreatedAt], [UpdatedBy], [UpdatedAt], [Name], [Code], [VisitTypeGroupCode]) VALUES (NEWID(), 0, NULL, NULL, NULL, '2021-11-24 00:00:00.000', NULL, '2021-11-24 00:00:00.000', N'Báo cáo y tế', 'MEDICALREPORTCONFIRM', 'ED')
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Bác sỹ',N'Physician',N'MEDICALREPORT_PHY',N'MEDICALREPORTCONFIRM',N'MEDICALREPORTCONFIRM',N'1',N'1',N'ConfirmForm',N'',N'',N'',N'', '1');
+
+--- PHC
+Update MasterDatas set EnName = N'Surgical Consent Form checked & correct', ViName = N'Đã kiểm tra giấy đồng ý phẫu thuật/ thủ thuật/ điều trị và đúng' where code = N'PHCSCF';
+Update MasterDatas set EnName = N'Skin integrity checked', ViName = N'Đã kiểm tra tình trạng nguyên vẹn da (mụn, nhọt, vết xây sát' where code = N'PHCSIC';
+Update MasterDatas set EnName = N'Patient’s Identity asked - checked (2 identifiers)', ViName = N'Hỏi kiểm tra thông tin người bệnh' where code = N'PHCPIA';
+Update MasterDatas set EnName = N'Enema given', ViName = N'Thụt tháo sạch' where code = N'PHCEG0';
+Update MasterDatas set EnName = N'Skin integrity checked', ViName = N'Đã kiểm tra tình trạng nguyên vẹn da (mụn, nhọt, vết xây sát)' where code = N'PHCSIC';
+Update MasterDatas set EnName = N'Jewelry, body piercings, hairpieces, hairpins, contact lenses, glasses, hearing aids, underwear, money,mobile phone etc removed', ViName = N'Các đồ trang sức, phụ kiện: tóc giả, kẹp tóc, kính áp tròng, kính mắt, chân tay giả đã được tháo bỏ' where code = N'PHCJBP';
+
+--- EMERGENCYCONFIRMATION
+INSERT INTO [dbo].[Forms]([Id], [IsDeleted], [DeletedBy], [DeletedAt], [CreatedBy], [CreatedAt], [UpdatedBy], [UpdatedAt], [Name], [Code], [VisitTypeGroupCode]) VALUES (NEWID(), 0, NULL, NULL, NULL, '2021-11-24 00:00:00.000', NULL, '2021-11-24 00:00:00.000', N'Báo cáo y tế', 'EMERGENCYCONFIRMATION', 'ED')
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Bác sỹ điều trị/ Bác sỹ trực',N'Bác sỹ điều trị/ Bác sỹ trực',N'EMERGENCYCONFIRMATION_PHY',N'EMERGENCYCONFIRMATION',N'EMERGENCYCONFIRMATION',N'1',N'1',N'ConfirmForm',N'',N'',N'',N'', '1');
+
+--- EMERGENCYRECORDCONFIRM
+INSERT INTO [dbo].[Forms]([Id], [IsDeleted], [DeletedBy], [DeletedAt], [CreatedBy], [CreatedAt], [UpdatedBy], [UpdatedAt], [Name], [Code], [VisitTypeGroupCode]) VALUES (NEWID(), 0, NULL, NULL, NULL, '2021-11-29 00:00:00.000', NULL, '2021-11-29 00:00:00.000', N'Bệnh án cấp cứu', 'EMERGENCYRECORDCONFIRM', 'ED')
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Người thực hiện',N'Staff name',N'EMERGENCYRECORDCONFIRM_SFN',N'EMERGENCYRECORDCONFIRM',N'EMERGENCYRECORDCONFIRM',N'1',N'1',N'ConfirmForm',N'',N'',N'',N'', '1');
+
+
+

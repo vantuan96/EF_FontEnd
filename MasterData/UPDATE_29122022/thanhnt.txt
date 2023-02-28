@@ -1,0 +1,8 @@
+
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Chăm sóc thông tiểu, dẫn lưu',N'Urinary catheter/ drain care',N'PFEFUCDCCHKV2',N'PFEFUCDC',N'PFEF',N'2',N'2',N'Text',N'',N'0',N'',N'PFEFEN0CP0', '1');
+update MasterDatas set [Order] = 3 where Code = 'PFEFUCDCNUU'
+update MasterDatas set [Order] = 4 where Code = 'PFEFUCDCUUU'
+update MasterDatas set [Order] = 5 where Code = 'PFEFUCDCPPP'
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'UploadFile',N'UploadFile',N'IPDIAACOORDIUPLOADCD1',N'IPDIAACOORDIUPLOAD',N'IPDIAACOORDI',N'2',N'1081',N'Text',N'',N'0',N'',N'', '');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'UploadFile',N'UploadFile',N'IPDIAACOORDIUPLOADCD2',N'IPDIAACOORDIUPLOAD',N'IPDIAACOORDI',N'2',N'1082',N'Text',N'',N'0',N'',N'', '');
+

@@ -1,0 +1,211 @@
+.service-list {
+	flex-wrap: wrap;
+}
+.flex-grow-1 {
+    -ms-flex-positive: 1!important;
+    flex-grow: 1!important;
+}
+.ordered > div{
+	max-width: 20vw;
+  width: 350px;
+}
+.box-modal-auto {
+  max-height: 70vh;
+  overflow: auto;
+}
+.vertical-align-middle {
+  vertical-align: middle !important;
+}
+.fake-input.no-wrap  {
+  white-space: nowrap !important;
+}
+.warning-msg {
+  color: #d44141;
+}
+.msg-error {
+  color: #d44141;
+  font-size: 12px;
+  font-style: italic;
+}
+.x23.disable label {
+  pointer-events: none;
+}
+.mt-10 {
+  margin-top: 10;
+}
+.ordered2 > div {
+  width: 400px
+}
+.ServiceOrderListx .box-collapse-2.open .v-collapse-title {
+  background-color: #1375ba;
+  color: #fff;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-10 {
+  padding: 10px;
+}
+.mt-0 {
+  margin-top: 0 !important;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.ml-0 {
+  margin-left: 0 !important;
+}
+.min-h-60 {
+  min-height: 60px;
+}
+.d-flex.p-10 {
+  padding: 10px 7px;
+}
+.required {
+    color: red;
+}
+.panel-group.PlaceDiagnostics .panel-heading{
+  padding: 0
+}
+.panel-group.PlaceDiagnostics .panel-heading a{
+  padding: 10px 15px;
+  display: block;
+}
+.panel-group.PlaceDiagnostics .panel-heading a > .fa {
+  float: right;
+  display: none;
+}
+.panel-group.PlaceDiagnostics .panel-heading a.collapsed > .fa.fa-angle-double-down {
+  display: inline;
+}
+.panel-group.PlaceDiagnostics .panel-heading a:not(.collapsed) > .fa.fa-angle-double-up {
+  display: inline;
+}
+.mt-15 {
+  margin-top: 15px !important
+}
+.mb-10 {
+  margin-bottom: 10px !important
+}
+.mb-15 {
+  margin-bottom: 15px !important
+}
+.v-yellow-btn.disabled {
+  pointer-events: none;
+}
+.ServiceOrderList-item{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px
+}
+.link {
+  color: #1375ba;
+  cursor: pointer;
+}
+.ServiceOrderList {
+	margin-left: 15px !important;
+  margin-bottom: 15px !important;
+}
+.ServiceOrderList .box{
+  padding-top: 0 !important
+}
+.step-2 .ServiceOrderList {
+	margin-left: 0px !important;
+	margin-right: 15px !important;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.ServiceOrderList-item:hover {
+  color: #337ab7;
+  cursor: pointer;
+}
+.chil-m1 > div {
+	margin-right: 5px
+}
+#PlaceDiagnostics-page .v-select {
+  min-width: 100px;
+}
+.mt-10 {
+  margin-top: 10px
+}
+.min-height-500 {
+  min-height: 500px
+}
+.pl-10 {
+  padding-left: 10px
+}
+tr.status-Failed *, tr.status-DRSFailed * {
+    /*text-decoration: line-through;*/
+    color: red
+}
+tr.status-Cancelled * {
+    text-decoration: line-through;
+}
+tr.status-Placed {
+    /*color: green*/
+}
+
+.tbl-5.table>tbody>tr>td, .tbl-5.table>tbody>tr>th, .tbl-5.table>tfoot>tr>td, .tbl-5.table>tfoot>tr>th, .tbl-5.table>thead>tr>td, .tbl-5.table>thead>tr>th {
+  padding: 4px
+}
+.tbl-5.table>thead>tr>th {
+  background: #f4f4f4
+}
+span.error-msg {
+  color: red;
+  font-size: 12px;
+  font-style: italic;
+}
+.mr-10 {
+  margin-right: 10px !important
+}
+.mr-5 {
+  margin-right: 5px !important
+}
+.dialog-c-text {
+  white-space: break-spaces;
+}
+.flex-between {
+  justify-content: space-between;
+}
+.PrincipalTestTable-cdha-content p {
+  white-space: normal;
+}
+#OrderSetForm.v--modal-overlay .v--modal-box {
+  overflow: unset;
+}
+.lis-service {
+  max-height: calc(100vh - 65px - 40px - 30px - 115px);
+  overflow: auto;
+}
+span.user-label {
+  padding: 3px 5px;
+  background: #cccccc7a;
+  margin: 3px;
+  border-radius: 5px;
+}
+.d-flex.ServiceOrderList-item.warning-box-2 {
+  border-left: 2px solid red;
+  padding-left: 5px;
+  color: red
+}
+.d-flex.ServiceOrderList-item {
+  border-left: 2px solid transparent;
+  padding-left: 5px;
+}
+.table-p-10 td {
+  padding: 5px;
+}
+input.form-control.A02_016_050919_VE__CHI_INFO_002 {
+  min-width: 240px;
+}
+.tooltiptext-PriceWarMsg {
+  font-size: 12px;
+  font-style: italic;
+  color: red;
+}
+.print-charge-hidden {
+  position: fixed;
+  z-index: -9999;
+  opacity: 0;
+}

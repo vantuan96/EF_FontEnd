@@ -1,0 +1,30 @@
+# Node.js with Vue
+# Build a Node.js project that uses Vue.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- UAT
+
+pool:
+  name: 'Default'
+
+steps:
+- script: |
+    echo ##[command]
+    cd C:\\agents\\_work\\5\\s
+    echo ##[command]
+    rmdir C:\\agents\\_work\\5\\s\\dist
+    echo ##[command]
+    git checkout UAT
+    echo ##[command]
+    git pull origin UAT
+    echo ##[command]
+    npm run build_test
+  displayName: 'npm install and build'
+- script: |
+    echo ##[command]
+    rmdir C:\\agents\\_work\\4\\static
+    echo ##[command]
+    xcopy C:\\agents\\_work\\5\\s\\dist\\production C:\\agents\\_work\\4\\s\\Application\\EForm /E /Y
+  displayName: "copy files"

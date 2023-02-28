@@ -1,0 +1,35 @@
+#HumanResourceAssessment-page .fc-header-toolbar {
+  display: none
+}
+#HumanResourceAssessment-page .fc-col-header-cell {
+  background-color: #1375ba;
+  color: #fff
+}
+#HumanResourceAssessment-page .fc-col-header-cell a {
+  color: #fff
+}
+#HumanResourceAssessment-page .v-event {
+  background: none;
+  border: none;
+}
+.v-event .fc-event-main {
+  color: #000 !important;
+  text-align: center;
+  cursor: pointer;
+}
+.v-event.has-data .fc-event-main span {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F0F0 100%);
+  border: 1px solid #DADCE0;
+  padding: 3px 7px;
+  border-radius: 24px;
+}
+.v-event.no-data .fc-event-main span {
+  color: #1176BC !important
+}
+#HumanResourceAssessment-page .fc-daygrid-day-top .fc-daygrid-day-number {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}

@@ -1,0 +1,34 @@
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Thông tin tiêm vắc xin và thông tin tư vấn',N'Vaccination and consulting information (if any)',N'IPDIAATSDTTTTVX',N'IPDMEDHIS',N'A03_120_120421_VE',N'1',N'1115',N'Label',N'',N'0',N'',N'', '');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Thông tin tiêm vắc xin và thông tin tư vấn',N'Vaccination and consulting information (if any)',N'IPDIAATSDTTTTVXCD1',N'IPDIAATSDTTTTVX',N'A03_120_120421_VE',N'2',N'1116',N'Text',N'',N'0',N'',N'', '');
+
+
+UPDATE MasterDatas SET EnName = N'Summary of patient’s condition'
+WHERE Code = 'EDJCFAOSSOP'
+
+UPDATE MasterDatas SET EnName = N'Coagulation tests'
+WHERE Code = 'EDJCFAOSTOC'
+
+UPDATE MasterDatas SET ViName = N'Dự trù máu', EnName = N'Order for potential transfusion'
+WHERE Code = 'EDJCFAOSPT0'
+
+UPDATE MasterDatas SET ViName = N'Dự trù máu', EnName = N'Order for potential transfusion'
+WHERE Code = 'EDJCFAOSPT0ANS'
+
+UPDATE MasterDatas SET EnName = N'Anaesthesia method'
+WHERE Code = 'EDJCFAOSAM0'
+
+UPDATE MasterDatas SET EnName = N'Anaesthesia method'
+WHERE Code = 'EDJCFAOSAM0ANS'
+
+
+UPDATE MasterDatas SET EnName = N'Anticipated complication(s), risk, difficulties which required special attention'
+WHERE Code = 'EDJCFAOSCRDANS'
+
+UPDATE MasterDatas SET EnName = N'Anticipated complication(s), risk, difficulties which required special attention'
+WHERE Code = 'EDJCFAOSCRD'
+
+
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Xác nhận bệnh tật',N'Confirmation of illness',N'OPDOENXNBT',N'OPDOEN',N'OPDOEN',N'1',N'303',N'Label',N'',N'0',N'',N'', '');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Có',N'Yes',N'OPDOENXNBTYES',N'OPDOENXNBT',N'OPDOEN',N'2',N'304',N'Radio',N'',N'0',N'',N'', '');
+Insert into MasterDatas  (Id, CreatedAt, UpdatedAt, IsDeleted,ViName, EnName, Code, [Group], Form, [Level], [Order], DataType, Note, IsReadOnly,Data, Clinic, [Version]) values (NEWID(), GETDATE(), GETDATE(), 'False', N'Không',N'No',N'OPDOENXNBTNO',N'OPDOENXNBT',N'OPDOEN',N'2',N'305',N'Radio',N'',N'0',N'',N'', '');
+ 

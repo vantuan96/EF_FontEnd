@@ -1,0 +1,220 @@
+.btn.btn-green-gradient {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #28A745;
+  border: 1px solid #28A745;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #fff;
+}
+.btn.btn-round {
+  border-radius: 30px
+}
+.v-green-btn {
+  background: #96EAE5;
+  border-radius: 0px 0px 5px 5px;
+}
+.btn.btn-yellow-gradient{
+  background: linear-gradient(180deg, #FFDB71 0%, #F3B600 100%);
+  border: 1px solid #DDA80A;
+  box-sizing: border-box;
+  border-radius: 5px;
+ }
+ .btn-white-gradient {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F0F0 100%);
+  border: 1px solid #DADCE0;
+  box-sizing: border-box;
+  border-radius: 5px;
+ }
+ .box-info-green {
+  background: #DFF9F7;
+  padding: 5px;
+  /* margin: 10px 0; */
+ }
+ .panel-title-icon a i{
+   display: none;
+   font-size: 14px
+ }
+ .panel-title-icon a.collapsed .fa-chevron-down {
+   display: inline;
+ }
+ .panel-title-icon a:not(.collapsed) .fa-chevron-up {
+  display: inline;
+}
+.panel-educational>.panel-heading {
+  padding: 0
+}
+.panel-educational>.panel-heading a {
+  padding: 10px 15px;
+  display: inline-block;
+}
+.cp-block {
+  position: relative;
+}
+.cp-block button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: calc(100% - 8px);
+  margin: 4px;
+  padding: 0px 11px;
+}
+.badge-noti {
+  padding: 5px;
+  border-radius: 30px;
+  min-width: 23px;
+  text-align: center;
+}
+.status-float-block {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
+}
+.status-float-block .group-radio input[type=radio] + label {
+  margin-bottom: 0
+}
+.status-block {
+  background-color: #337Ab7;
+  padding: 15px 0;
+}
+.action-btn-block {
+  background-color: #2b5d88;
+  padding: 15px 0;
+}
+.content-container {
+  padding: 0 15px
+}
+.mg-bt-60 {
+  margin-bottom: 60px
+}
+.mg-bt-120 {
+  margin-bottom: 120px
+}
+.animation-s {
+  animation: pulseanimate 2s linear infinite;
+  background-color: #DC3545;
+}
+
+@keyframes pulseanimate {
+  0% {
+      box-shadow: 0 0 0 0 rgba(255, 0, 64, 0.7), 0 0 0 0 rgba(255, 0, 64, 0.7);
+  }
+  40% {
+      box-shadow: 0 0 0 10px rgba(255, 0, 64, 0), 0 0 0 0 rgba(255, 0, 64, 0.7);
+  }
+  80% {
+      box-shadow: 0 0 0 10px rgba(255, 0, 64, 0), 0 0 0 5px rgba(255, 0, 64, 0);
+  }
+  100% {
+      box-shadow: 0 0 0 0 rgba(255, 0, 64, 0), 0 0 0 5px rgba(255, 0, 64, 0);
+  }
+}
+@keyframes btnpulseanimate {
+  0% {
+      box-shadow: 0 0 0 0 rgba(255, 0, 64, 0.7), 0 0 0 0 rgba(255, 0, 64, 0.7);
+  }
+  40% {
+      box-shadow: 0 0 0 10px rgba(255, 0, 64, 0), 0 0 0 0 rgba(255, 0, 64, 0.7);
+  }
+  80% {
+      box-shadow: 0 0 0 10px rgba(255, 0, 64, 0), 0 0 0 5px rgba(255, 0, 64, 0);
+  }
+  100% {
+      box-shadow: 0 0 0 0 rgba(255, 0, 64, 0), 0 0 0 5px rgba(255, 0, 64, 0);
+  }
+}
+.v-bottom-btn {
+  border-radius: 0px 0px 5px 5px !important
+}
+.remove-btn-pos {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: navajowhite;
+  background: #ff00007a;
+  color: #fff;
+  height: 100%;
+}
+.bubbly-button {
+}
+#go-to-top {
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+  display: none;
+  /* position: fixed; */
+  /* bottom: 15px; */
+  /* right: 30px; */
+  /* z-index: 10; */
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 20px;
+}
+#go-to-top.show {
+  display: inline-block !important;
+  float: right;
+  opacity: 1;
+}
+.box-collapse-2.open > .v-collapse-title {
+  background-color: #337AB7;
+  color: #fff;
+}
+.box-collapse-2.open .v-collapse-title{
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 0 0
+  }
+  .box-collapse-2 > .box-collapse-content {
+  display: none;
+  padding: 10px;
+  background: #FFF;
+  border: 1px solid #ccc;
+  border-radius: 0 0 5px 5px;
+  }
+  .box-collapse-2.open > .box-collapse-content {
+  display: block
+  }
+  .box-collapse-2 > .v-collapse-title .fa-angle-double-up {
+  display: none
+  }
+  .box-collapse-2 > .v-collapse-title .fa-angle-double-down {
+  display: block
+  }
+  .box-collapse-2.open > .v-collapse-title .fa-angle-double-up {
+  display: block
+  }
+  .box-collapse-2.open > .v-collapse-title .fa-angle-double-down {
+  display: none
+  }
+  .collapse-btn {
+  border: none;
+  background: none;
+  padding: 10px 15px;
+  border-right: 1px solid #ccc;
+  margin-right: 7px;
+  }
+  .v-collapse-title:before {
+  content: "";
+  border-top: 15px solid #ffc107;
+  border-right: 15px solid transparent;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+  .v-collapse-title {
+  background-color: #fff;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  position: relative;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  /* color: #fff */
+  }
+  .v-collapse-title b {
+  padding: 0;
+  display: inline-block;;
+  /* color: #fff; */
+  }

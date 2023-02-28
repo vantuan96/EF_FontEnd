@@ -1,0 +1,38 @@
+# Node.js with Vue
+# Build a Node.js project that uses Vue.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- none
+
+pool:
+  name: 'EFormCI'
+
+stages:
+  - stage: control_iis
+    jobs:
+      - job: control_iis
+        displayName: 'control_iis'
+        strategy:
+          matrix:
+            Server81:
+                AGENT_NAME: 'Agent-server-81'
+            Server82:
+              AGENT_NAME: 'Agent-server-82'
+            Server83:
+              AGENT_NAME: 'Agent-server-83'
+            Server84:
+              AGENT_NAME: 'Agent-server-84'
+        pool:
+          name: 'EFormCI'
+          demands:
+          - agent.name -equals $(AGENT_NAME)
+        steps:
+        - checkout: 'none'
+          displayName: 'Checkout code from repo'
+        - script: |
+            echo ##[command]
+            cd C:\\Windows\\System32
+            echo ##[command]
+            iisreset.exe
